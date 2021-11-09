@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("input 'String','Int' and 'Double' values");
+		String q = sc.next();
+		int w = sc.nextInt();
+		double e = sc.nextDouble();
+		concan (q,w,e);
+		System.out.println(concan (q,w,e));
+	}
+
+	public static String concan (String a, int i, double j) {
+		double sum = i + j;
+		return "a + "+sum;
+	}
+
+}
